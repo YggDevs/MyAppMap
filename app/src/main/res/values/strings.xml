@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="val">valor</string>
+    <string name="nreg">C</string>
+    <string name="ins">Insertar</string>
+    <string name="act">Actualizar</string>
+    <string name="elim">Eliminar</string>
+    <string name="cons">CONSULT</string>
+    <string name="añadir_clientes">Añadir cliente</string>
+    <string name="direccion">direccion</string>
+    <string name="horario">Horario</string>
+    <string name="Nombre_clie">Nom_Cliente</string>
+    <string name="ir_aruta">Ir_aruta</string>
+    <string name="ir_MapsActivity">IR_aMapsActivity</string>
+    <string name="ver_clie">ver_clie</string>
+    <string name="direccion_del_cliente">Direccion del cliente</string>
+    <string name="nombre_del_cliente">Nombre del cliente</string>
+    <string name="horario_apertura">Horario apertura</string>
+    <string name="clientes">Clientes</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="codigo">Codigo</string>
+    <string name="navegar">Navegar</string>
+
+</resources>
