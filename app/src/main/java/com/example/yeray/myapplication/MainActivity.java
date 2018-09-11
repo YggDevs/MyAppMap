@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
                     for (int y=0; y < coordenadas[x].length; y++) {
 
 
-                        System.out.println (coordenadas[x][y]);
+                        //System.out.println (coordenadas[x][y]);
                     }
                 }
 */
