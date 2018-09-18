@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
                     for (int y=0; y < coordenadas[x].length; y++) {
 
 
-                        //System.out.println (coordenadas[x][y]);
+                        System.out.println (coordenadas[x][y]);
                     }
                 }
 */
@@ -146,10 +146,12 @@ public class MainActivity extends AppCompatActivity {
         btnIrMapsActivity.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
+/*
 
                 Intent intent = new Intent(v.getContext(), MapsActivity.class);
                 startActivityForResult(intent, 0);
 
+*/
 
             }
 
@@ -329,19 +331,12 @@ public class MainActivity extends AppCompatActivity {
 
                 //calcular las distancias entre puntos
                 float distance = myLocation.distanceTo(markerLocation);
-
-
-
                 if (distance <=  MARGENERROR)
 
                 {
                     Toast.makeText(getApplicationContext(), "Estas en casa  distancia: " + distance, Toast.LENGTH_SHORT).show();
 
                 }
-
-
-
-
 
             }
 
@@ -350,6 +345,12 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
+
+
+
+
+
 
 
     /* Aqui empieza la Clase Localizacion */

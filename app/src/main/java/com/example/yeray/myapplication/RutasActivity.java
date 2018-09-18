@@ -97,7 +97,7 @@ public class RutasActivity extends AppCompatActivity {
          */
 
 
-        UsuariosSQLiteHelper usdbh = new UsuariosSQLiteHelper(this, "DBUsuarios", null, 5);
+        UsuariosSQLiteHelper usdbh = new UsuariosSQLiteHelper(this, "DBUsuarios", null, 6);
 
         db = usdbh.getWritableDatabase();
 

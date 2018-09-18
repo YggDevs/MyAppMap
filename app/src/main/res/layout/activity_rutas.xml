@@ -11,42 +11,32 @@
 
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="430dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="20dp"
-        android:orientation="vertical">
+        android:layout_alignParentTop="false"
 
-        <TextView
-            android:id="@+id/textViewCodigo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/codigo" />
+        android:orientation="vertical"
+        android:visibility="visible">
 
         <EditText
             android:id="@+id/txtCodigo"
-            android:layout_width="wrap_content"
-            android:layout_height="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="5"
             android:ems="10"
-            android:inputType="number" />
+            android:inputType="number"
+            android:hint="codigo" />
 
-
-        <TextView
-            android:id="@+id/textViewNombre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Nombre_clie" />
 
         <EditText
             android:id="@+id/txtNombre"
-            android:layout_width="wrap_content"
-            android:layout_height="57dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="5"
             android:ems="10"
-            android:inputType="text">
+            android:inputType="text"
+            android:hint="@string/nom_cliente">
 
 
             <requestFocus />
@@ -54,58 +44,43 @@
 
         <TextView
             android:id="@+id/textViewDireccion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/direccion" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <EditText
             android:id="@+id/txtDireccion"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="text" />
+            android:inputType="text"
+            android:hint="Direccion" />
 
-
-        <TextView
-            android:id="@+id/TextviewLatitude"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Latitud" />
 
         <EditText
             android:id="@+id/txtLatitude"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <TextView
-            android:id="@+id/textViewLongitude"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Longitud" />
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Latitud" />
 
         <EditText
             android:id="@+id/txtLongitude"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
-
-        <TextView
-            android:id="@+id/textViewHorario"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/horario" />
+            android:inputType="textPersonName"
+            android:hint="Longitud" />
 
         <EditText
             android:id="@+id/txtHorario"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="text" />
+            android:inputType="text"
+            android:hint="Horario" />
 
     </LinearLayout>
 

@@ -20,7 +20,8 @@
     <string name="clientes">Clientes</string>
     <string name="latitud">Latitud</string>
     <string name="longitud">Longitud</string>
-    <string name="codigo">Codigo</string>
     <string name="navegar">Navegar</string>
+    <string name="nom_cliente">Nom_cliente</string>
+    <string name="codigo">Codigo</string>
 
 </resources>

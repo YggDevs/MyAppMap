@@ -44,7 +44,7 @@ class VerClientesLista : AppCompatActivity() {
          */
 
 
-        val usdbh = UsuariosSQLiteHelper(this, "DBUsuarios", null, 5)
+        val usdbh = UsuariosSQLiteHelper(this, "DBUsuarios", null, 6)
 
         db = usdbh.writableDatabase
 
@@ -69,18 +69,19 @@ class VerClientesLista : AppCompatActivity() {
             if (c.moveToFirst()) {
                 //Recorremos el cursor hasta que no haya más registros
                 do {
-                    val cod = c.getString(0)
-                    val nom = c.getString(1)
-                    val direc = c.getString(2)
-                    val horario = c.getString(3)
-                    val longitud = c.getDouble(4)
-                    val latitud = c.getDouble(5)
+                    val id= c.getString(0)
+                    val cod = c.getString(1)
+                    val nom = c.getString(2)
+                    val direc = c.getString(3)
+                    val horario = c.getString(4)
+                    val longitud = c.getDouble(5)
+                    val latitud = c.getDouble(6)
 
 
 
 
 
-                    txtResultado!!.append(" " + cod + " - " + nom + " - " + direc + "-" + horario + "\n" +
+                    txtResultado!!.append(id+"\n " + cod + " - " + nom + " - " + direc + "-" + horario + "\n" +
                             "Longitud" + longitud + "\n" +
                             "Latitud " + latitud + "\n")
 
